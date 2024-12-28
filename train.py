@@ -57,7 +57,7 @@ import wandb
 from wandb.integration.keras import WandbCallback
 wandb.login()
 
-wandb.init(project="Facerecofnition")
+wandb.init(project="your/project")
 
 def train_model():
     x_train, y_train, x_test, y_test = prepare_cifar10()
